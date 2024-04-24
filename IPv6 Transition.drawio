@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-24T04:07:52.995Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="yoKZ0Qm49s5heCQQKeQA" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-24T04:10:33.479Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="1fJULU4YSAAyCgNSbhOn" version="24.2.5" type="github">
   <diagram name="Page-1" id="hf8vbC5gnfpXznW6TtMR">
     <mxGraphModel dx="954" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -150,7 +150,7 @@
         <mxCell id="gsKdTAAplyLeZxzxBcaJ-24" value="" style="sketch=0;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0],[0.145,0.145,0],[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=router;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="320" y="1075" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="gsKdTAAplyLeZxzxBcaJ-25" value="IPv4" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="gsKdTAAplyLeZxzxBcaJ-19" target="gsKdTAAplyLeZxzxBcaJ-23">
+        <mxCell id="gsKdTAAplyLeZxzxBcaJ-25" value="IPv4/IPv6" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="gsKdTAAplyLeZxzxBcaJ-19" target="gsKdTAAplyLeZxzxBcaJ-23">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="415" y="1090" as="sourcePoint" />
             <mxPoint x="465" y="1040" as="targetPoint" />
@@ -159,7 +159,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gsKdTAAplyLeZxzxBcaJ-26" value="IPv4" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="gsKdTAAplyLeZxzxBcaJ-18" target="gsKdTAAplyLeZxzxBcaJ-19">
+        <mxCell id="gsKdTAAplyLeZxzxBcaJ-26" value="IPv4|/IPv6" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="gsKdTAAplyLeZxzxBcaJ-18" target="gsKdTAAplyLeZxzxBcaJ-19">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="140" y="1170" as="sourcePoint" />
             <mxPoint x="190" y="1120" as="targetPoint" />
@@ -244,7 +244,7 @@
         <mxCell id="gsKdTAAplyLeZxzxBcaJ-47" value="" style="sketch=0;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0],[0.145,0.145,0],[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=router;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="320" y="1429" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="gsKdTAAplyLeZxzxBcaJ-48" value="IPv4" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="gsKdTAAplyLeZxzxBcaJ-42" target="gsKdTAAplyLeZxzxBcaJ-46">
+        <mxCell id="gsKdTAAplyLeZxzxBcaJ-48" value="IPv4/IPv6" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="gsKdTAAplyLeZxzxBcaJ-42" target="gsKdTAAplyLeZxzxBcaJ-46">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="415" y="1444" as="sourcePoint" />
             <mxPoint x="465" y="1394" as="targetPoint" />
@@ -253,7 +253,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gsKdTAAplyLeZxzxBcaJ-49" value="IPv4" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="gsKdTAAplyLeZxzxBcaJ-41" target="gsKdTAAplyLeZxzxBcaJ-42">
+        <mxCell id="gsKdTAAplyLeZxzxBcaJ-49" value="IPv4/IPv6" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="gsKdTAAplyLeZxzxBcaJ-41" target="gsKdTAAplyLeZxzxBcaJ-42">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="140" y="1524" as="sourcePoint" />
             <mxPoint x="190" y="1474" as="targetPoint" />
@@ -268,6 +268,62 @@
             <mxPoint x="440" y="1304" as="targetPoint" />
             <Array as="points">
               <mxPoint x="110" y="1184" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gsKdTAAplyLeZxzxBcaJ-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gsKdTAAplyLeZxzxBcaJ-52" target="gsKdTAAplyLeZxzxBcaJ-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gsKdTAAplyLeZxzxBcaJ-52" value="APP&lt;div data-sider-select-id=&quot;33506169-b03d-43fa-859e-f544d424c816&quot;&gt;IPv4|IPv6&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="55" y="1600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gsKdTAAplyLeZxzxBcaJ-53" value="Node&lt;div&gt;IPv6&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="55" y="1684" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gsKdTAAplyLeZxzxBcaJ-54" value="Router&lt;div style=&quot;font-size: 13px;&quot;&gt;IPv6&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;verticalAlign=middle;align=right;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="325" y="1784" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gsKdTAAplyLeZxzxBcaJ-55" value="DNS&amp;nbsp;&lt;div&gt;A|4A&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1520" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gsKdTAAplyLeZxzxBcaJ-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="gsKdTAAplyLeZxzxBcaJ-58" target="gsKdTAAplyLeZxzxBcaJ-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="695" y="1664" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gsKdTAAplyLeZxzxBcaJ-57" value="APP&lt;div data-sider-select-id=&quot;33506169-b03d-43fa-859e-f544d424c816&quot;&gt;IPv4|IPv6&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="545" y="1600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gsKdTAAplyLeZxzxBcaJ-58" value="Node&lt;div&gt;IPv6&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="545" y="1684" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gsKdTAAplyLeZxzxBcaJ-59" value="" style="sketch=0;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0],[0.145,0.145,0],[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=router;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="325" y="1789" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gsKdTAAplyLeZxzxBcaJ-60" value="IPv6" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="gsKdTAAplyLeZxzxBcaJ-54" target="gsKdTAAplyLeZxzxBcaJ-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="1804" as="sourcePoint" />
+            <mxPoint x="470" y="1754" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="605" y="1799" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gsKdTAAplyLeZxzxBcaJ-61" value="IPv6" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="gsKdTAAplyLeZxzxBcaJ-53" target="gsKdTAAplyLeZxzxBcaJ-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="145" y="1884" as="sourcePoint" />
+            <mxPoint x="195" y="1834" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="115" y="1799" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gsKdTAAplyLeZxzxBcaJ-62" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="gsKdTAAplyLeZxzxBcaJ-52" target="gsKdTAAplyLeZxzxBcaJ-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="395" y="1714" as="sourcePoint" />
+            <mxPoint x="445" y="1664" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="115" y="1544" />
             </Array>
           </mxGeometry>
         </mxCell>
