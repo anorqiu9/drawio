@@ -1,15 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2024-04-26T08:29:06.772Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="uIVT8Gn5NVdHNR9gFexX" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-26T08:34:30.391Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="m46hvQpXqrM5i-huw9Y3" version="24.2.5" type="github">
   <diagram name="Page-1" id="xjiAPtrzyKvg3kKw2uAh">
-    <mxGraphModel dx="1910" dy="223" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="450" math="0" shadow="0">
+    <mxGraphModel dx="1210" dy="-221" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="450" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="b_SJug2i7i0UwpOHzamp-19" value="192.168.2.1" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;edgeStyle=orthogonalEdgeStyle;entryX=0.456;entryY=-0.041;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="b_SJug2i7i0UwpOHzamp-18" target="b_SJug2i7i0UwpOHzamp-62">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="73.5" y="580" as="sourcePoint" />
-            <mxPoint x="153.5" y="556" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="b_SJug2i7i0UwpOHzamp-20" value="To Dual-Stack -- APP" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;strokeColor=none;labelBorderColor=none;fontStyle=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-40" y="460" width="245" height="40" as="geometry" />
         </mxCell>
@@ -33,6 +27,19 @@
         </mxCell>
         <mxCell id="b_SJug2i7i0UwpOHzamp-47" value="TCP/UDP" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=1;strokeColor=none;fillColor=#fff2cc;align=center;" vertex="1" parent="b_SJug2i7i0UwpOHzamp-48">
           <mxGeometry width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="b_SJug2i7i0UwpOHzamp-78" value="" style="curved=1;endArrow=classic;html=1;rounded=0;strokeWidth=3;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#6c8ebf;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="b_SJug2i7i0UwpOHzamp-48" source="b_SJug2i7i0UwpOHzamp-47" target="b_SJug2i7i0UwpOHzamp-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="275" y="75" as="sourcePoint" />
+            <mxPoint x="275" y="10" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="45" y="30" />
+              <mxPoint x="25" y="40" />
+              <mxPoint x="25" y="60" />
+              <mxPoint x="45" y="70" />
+              <mxPoint x="85" y="60" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="b_SJug2i7i0UwpOHzamp-49" value="Host Node" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=none;verticalAlign=bottom;align=right;" vertex="1" parent="1">
           <mxGeometry x="465" y="760.5" width="220" height="145" as="geometry" />
@@ -60,8 +67,10 @@
             <mxPoint x="90" y="100.5" as="sourcePoint" />
             <mxPoint x="140" y="50.5" as="targetPoint" />
             <Array as="points">
+              <mxPoint x="95" y="60.5" />
               <mxPoint x="40" y="80.5" />
               <mxPoint x="20" y="30.5" />
+              <mxPoint x="65" y="40.5" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -74,10 +83,10 @@
         <mxCell id="b_SJug2i7i0UwpOHzamp-56" value="APP&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;IPv6-Only&lt;/span&gt;&lt;/div&gt;&lt;div data-sider-select-id=&quot;33506169-b03d-43fa-859e-f544d424c816&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;align=center;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="470" y="600" width="220" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="b_SJug2i7i0UwpOHzamp-57" value="&lt;span style=&quot;font-size: 8px;&quot; class=&quot;s1&quot;&gt;// IPv6 socket setup&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;s1&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&amp;nbsp; &lt;/span&gt;server_fd = socket(AF_INET6, SOCK_STREAM, 0);&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;s1&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&amp;nbsp; &lt;/span&gt;// Diable IPv6 Only&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;s1&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&amp;nbsp; &lt;/span&gt;int ipv6only = 0;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;s1&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&amp;nbsp; &lt;/span&gt;setsockopt(server_fd, IPPROTO_IPV6, IPV6_V6ONLY, &amp;amp;ipv6only, sizeof(ipv6only))&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;s1&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&amp;nbsp; &lt;/span&gt;// Bind to IPv6 wildcard address, the IPv4 client address is interpreted as &lt;span style=&quot;font-size: 8px;&quot; class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;s1&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&amp;nbsp; &lt;/span&gt;// IPv4-mapped IPv6 address in the dual-stack node&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;s1&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&amp;nbsp; &lt;/span&gt;struct sockaddr_in6 address6;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;s1&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&amp;nbsp; &lt;/span&gt;address6.sin6_family = AF_INET6;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;s1&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&amp;nbsp; &lt;/span&gt;address6.sin6_port = htons(8080);&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;s1&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&amp;nbsp; &lt;/span&gt;addrlen = sizeof(address6);&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;s1&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&amp;nbsp; &lt;/span&gt;address6.sin6_addr = in6addr_any;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;s1&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&amp;nbsp; &lt;/span&gt;bind(server_fd, (struct sockaddr *)&amp;amp;address6, sizeof(address6))&lt;/span&gt;&lt;br&gt;&lt;p style=&quot;font-size: 8px;&quot; class=&quot;p2&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;s1&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+        <mxCell id="b_SJug2i7i0UwpOHzamp-57" value="&lt;span style=&quot;font-size: 8px;&quot; class=&quot;s1&quot;&gt;&amp;nbsp; &amp;nbsp;// IPv6 socket setup&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;s1&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&amp;nbsp; &lt;/span&gt;server_fd = socket(AF_INET6, SOCK_STREAM, 0);&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;s1&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&amp;nbsp; &lt;/span&gt;// Diable IPv6 Only&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;s1&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&amp;nbsp; &lt;/span&gt;int ipv6only = 0;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;s1&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&amp;nbsp; &lt;/span&gt;setsockopt(server_fd, IPPROTO_IPV6, IPV6_V6ONLY, &amp;amp;ipv6only, sizeof(ipv6only))&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;s1&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&amp;nbsp; &lt;/span&gt;// Bind to IPv6 wildcard address, the IPv4 client address is interpreted as &lt;span style=&quot;font-size: 8px;&quot; class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;s1&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&amp;nbsp; &lt;/span&gt;// IPv4-mapped IPv6 address in the dual-stack node&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;s1&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&amp;nbsp; &lt;/span&gt;struct sockaddr_in6 address6;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;s1&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&amp;nbsp; &lt;/span&gt;address6.sin6_family = AF_INET6;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;s1&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&amp;nbsp; &lt;/span&gt;address6.sin6_port = htons(8080);&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;s1&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&amp;nbsp; &lt;/span&gt;addrlen = sizeof(address6);&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;s1&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&amp;nbsp; &lt;/span&gt;address6.sin6_addr = in6addr_any;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;s1&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&amp;nbsp; &lt;/span&gt;bind(server_fd, (struct sockaddr *)&amp;amp;address6, sizeof(address6))&lt;/span&gt;&lt;br&gt;&lt;p style=&quot;font-size: 8px;&quot; class=&quot;p2&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;s1&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot; class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="710" y="550" width="300" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="b_SJug2i7i0UwpOHzamp-58" value="Bind(&quot;::&quot;)" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;edgeStyle=orthogonalEdgeStyle;strokeWidth=1;" edge="1" parent="1" source="b_SJug2i7i0UwpOHzamp-56">
+        <mxCell id="b_SJug2i7i0UwpOHzamp-58" value="bind(&quot;::&quot;)" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;edgeStyle=orthogonalEdgeStyle;strokeWidth=1;" edge="1" parent="1" source="b_SJug2i7i0UwpOHzamp-56">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="326" y="947" as="sourcePoint" />
             <mxPoint x="525" y="784" as="targetPoint" />
@@ -143,6 +152,12 @@
         </mxCell>
         <mxCell id="b_SJug2i7i0UwpOHzamp-73" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=10;strokeColor=none;fillColor=#4D4D4D;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="30" y="690" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="b_SJug2i7i0UwpOHzamp-19" value="192.168.2.1" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;edgeStyle=orthogonalEdgeStyle;entryX=0.456;entryY=-0.041;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="b_SJug2i7i0UwpOHzamp-18" target="b_SJug2i7i0UwpOHzamp-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="73.5" y="580" as="sourcePoint" />
+            <mxPoint x="153.5" y="556" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
