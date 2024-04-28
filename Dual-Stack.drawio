@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-28T08:21:47.300Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="_Rcbc6O5Zij-V8cGh0RZ" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-28T08:23:52.909Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="35hp3ZX8dzqy7B6ziKjI" version="24.2.5" type="github">
   <diagram name="Page-1" id="xjiAPtrzyKvg3kKw2uAh">
     <mxGraphModel dx="5159" dy="1777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="600" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="b_SJug2i7i0UwpOHzamp-167" value="" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=default;fillColor=none;strokeColor=#0d4cde;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="-4230" y="-310" width="96" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="b_SJug2i7i0UwpOHzamp-20" value="To Dual-Stack -- v4-&amp;gt;v6" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;strokeColor=none;labelBorderColor=none;fontStyle=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="b_SJug2i7i0UwpOHzamp-20" value="To Dual-Stack -- server ipv6" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;strokeColor=none;labelBorderColor=none;fontStyle=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-4231" y="40" width="245" height="40" as="geometry" />
         </mxCell>
         <mxCell id="b_SJug2i7i0UwpOHzamp-3" value="Host Node" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=none;verticalAlign=bottom;align=right;" vertex="1" parent="1">
@@ -168,7 +168,7 @@
         <mxCell id="b_SJug2i7i0UwpOHzamp-80" value="" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=default;fillColor=none;strokeColor=#0d4cde;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="-3716" y="290" width="96" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="b_SJug2i7i0UwpOHzamp-82" value="To Dual-Stack -- v6-&amp;gt;v6" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;strokeColor=none;labelBorderColor=none;fontStyle=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="b_SJug2i7i0UwpOHzamp-82" value="To Dual-Stack -- Client ipv6" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;strokeColor=none;labelBorderColor=none;fontStyle=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-4240" y="630" width="245" height="40" as="geometry" />
         </mxCell>
         <mxCell id="b_SJug2i7i0UwpOHzamp-83" value="Host Node" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=none;verticalAlign=bottom;align=right;" vertex="1" parent="1">
@@ -339,7 +339,7 @@
         <mxCell id="b_SJug2i7i0UwpOHzamp-125" value="" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=default;fillColor=none;strokeColor=#0d4cde;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="-3740" y="880" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="b_SJug2i7i0UwpOHzamp-129" value="To Dual-Stack -- v4-&amp;gt;v4" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;strokeColor=none;labelBorderColor=none;fontStyle=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="b_SJug2i7i0UwpOHzamp-129" value="To Dual-Stack -- Nodes" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;strokeColor=none;labelBorderColor=none;fontStyle=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-4245" y="-560" width="245" height="40" as="geometry" />
         </mxCell>
         <mxCell id="b_SJug2i7i0UwpOHzamp-130" value="Host Node" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=none;verticalAlign=bottom;align=right;" vertex="1" parent="1">
@@ -494,7 +494,7 @@
         <mxCell id="b_SJug2i7i0UwpOHzamp-208" value="" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=default;fillColor=none;strokeColor=#0d4cde;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="-4220" y="-850" width="96" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="b_SJug2i7i0UwpOHzamp-209" value="To Dual-Stack -- v4-&amp;gt;v4" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;strokeColor=none;labelBorderColor=none;fontStyle=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="b_SJug2i7i0UwpOHzamp-209" value="IPv-Only -- v4-&amp;gt;v4" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;strokeColor=none;labelBorderColor=none;fontStyle=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-4230" y="-1100" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="b_SJug2i7i0UwpOHzamp-210" value="Host Node" style="whiteSpace=wrap;html=1;rounded=1;verticalAlign=bottom;align=right;" vertex="1" parent="1">
