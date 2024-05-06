@@ -1,9 +1,141 @@
-<mxfile host="app.diagrams.net" modified="2024-05-06T08:49:58.608Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.2.5" etag="4ro33cZsBN_0pVJfl9zM" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-06T09:17:24.004Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="aqBBQN5BSIPkgI8u5U1i" version="24.2.5" type="github">
   <diagram name="Page-1" id="rZ_P2kpU1c0gx4y7kV9n">
-    <mxGraphModel>
+    <mxGraphModel dx="763" dy="1085" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-1" value="APP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-190" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-6" value="APP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-190" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-8" value="socket6" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-90" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-10" value="IPv4 address" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="icOcJ5imzF8ybxUpSHXg-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="-60" as="sourcePoint" />
+            <mxPoint x="670" y="-60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="-20" />
+              <mxPoint x="610" y="-20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="icOcJ5imzF8ybxUpSHXg-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="-70" as="sourcePoint" />
+            <mxPoint x="240" y="-90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-13" value="IPv4 Aadress" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="icOcJ5imzF8ybxUpSHXg-12">
+          <mxGeometry x="-0.0984" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-14" value="&lt;font data-sider-select-id=&quot;ed5d6f88-564b-4f81-8631-00c8b1efb85c&quot; color=&quot;#ff0000&quot;&gt;IPv4-Mapped IPv6&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="icOcJ5imzF8ybxUpSHXg-8" target="icOcJ5imzF8ybxUpSHXg-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="10" as="sourcePoint" />
+            <mxPoint x="420" y="-40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-57" value="socket4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-90" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-58" value="APP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-460" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-59" value="APP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-460" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-60" value="socket6" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-360" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-61" value="IPv6 address" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="icOcJ5imzF8ybxUpSHXg-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="-330" as="sourcePoint" />
+            <mxPoint x="670" y="-330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="-290" />
+              <mxPoint x="610" y="-290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-62" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="icOcJ5imzF8ybxUpSHXg-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="-340" as="sourcePoint" />
+            <mxPoint x="240" y="-360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-63" value="IPv6 Aadress" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="icOcJ5imzF8ybxUpSHXg-62">
+          <mxGeometry x="-0.0984" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-64" value="IPv6" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="icOcJ5imzF8ybxUpSHXg-60" target="icOcJ5imzF8ybxUpSHXg-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="-260" as="sourcePoint" />
+            <mxPoint x="420" y="-310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-65" value="socket6" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-360" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="icOcJ5imzF8ybxUpSHXg-66" target="icOcJ5imzF8ybxUpSHXg-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-66" value="APP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="110" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-67" value="APP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="110" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-68" value="socket4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="210" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-69" value="IPv4 Address" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="icOcJ5imzF8ybxUpSHXg-68">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="240" as="sourcePoint" />
+            <mxPoint x="670" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="280" />
+              <mxPoint x="610" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-70" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="icOcJ5imzF8ybxUpSHXg-66">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="230" as="sourcePoint" />
+            <mxPoint x="240" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-71" value="&lt;font data-sider-select-id=&quot;02a62351-7c99-4951-82fb-8e8df4cc4d38&quot; color=&quot;#ff0000&quot;&gt;IPv4-Mapped IPv6 Address&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="icOcJ5imzF8ybxUpSHXg-70">
+          <mxGeometry x="-0.0984" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-72" value="IPv4 Address" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="icOcJ5imzF8ybxUpSHXg-68" target="icOcJ5imzF8ybxUpSHXg-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="310" as="sourcePoint" />
+            <mxPoint x="420" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-73" value="socket6" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="210" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-75" value="IPv6-Only" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-510" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-76" value="Comptibility with IPv4 Client" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-240" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-77" value="IPv6-Only" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-79" value="Comptibility with IPv4 Server" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="70" width="240" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
