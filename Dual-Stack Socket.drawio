@@ -1,18 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2024-05-09T06:53:24.817Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="HfJ_hRqTeNT7_fDrQb9o" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-10T03:51:06.964Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="0UlJNYBoddJd0YW7BD5h" version="24.2.5" type="github">
   <diagram name="Page-1" id="rZ_P2kpU1c0gx4y7kV9n">
-    <mxGraphModel dx="1004" dy="1238" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="600" math="0" shadow="0">
+    <mxGraphModel dx="909" dy="1777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="icOcJ5imzF8ybxUpSHXg-89" value="Host Node" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=none;verticalAlign=top;align=center;" vertex="1" parent="1">
-          <mxGeometry x="20" y="720" width="530" height="460" as="geometry" />
-        </mxCell>
-        <mxCell id="icOcJ5imzF8ybxUpSHXg-107" value="" style="whiteSpace=wrap;html=1;rounded=1;fillColor=none;strokeColor=default;verticalAlign=middle;align=left;dashed=1;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="811.51" width="470" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="icOcJ5imzF8ybxUpSHXg-106" value="OS" style="whiteSpace=wrap;html=1;rounded=1;fillColor=none;strokeColor=default;verticalAlign=middle;align=left;dashed=1;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="883.67" width="470" height="236.33" as="geometry" />
-        </mxCell>
         <mxCell id="icOcJ5imzF8ybxUpSHXg-1" value="APP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="-190" width="200" height="60" as="geometry" />
         </mxCell>
@@ -148,79 +139,88 @@
         <mxCell id="icOcJ5imzF8ybxUpSHXg-80" value="&lt;b data-sider-select-id=&quot;4dd214a8-5db6-41d3-b710-cdda6e6183cf&quot;&gt;IPv4-mapped IPv6 address&lt;/b&gt;&lt;div data-sider-select-id=&quot;9b86270d-a50b-4bd0-8c5a-72402ec19036&quot;&gt;&amp;nbsp;IPv4 address is encoded into the low-order 32 bits of the IPv6 address, and the high-order 96 bits hold the fixed prefix 0:0:0:0:0:FFFF.  IPv4-mapped addresses are written as follows:&lt;br&gt;      ::FFFF:&amp;lt;IPv4-address&amp;gt;&lt;br&gt;   These addresses can be generated automatically by the getaddrinfo() function.&lt;br&gt;&lt;br&gt;&lt;b data-sider-select-id=&quot;79032d63-1c1d-43e4-9b67-b446f5373edb&quot;&gt;IPv4 --&amp;gt; IPv6&lt;/b&gt;&lt;br data-sider-select-id=&quot;9023410b-1a3b-4cb5-8c9a-3f16db68c0e2&quot;&gt;   Applications may use AF_INET6 sockets to open TCP connections to IPv4 nodes, or send UDP packets to IPv4 nodes, by simply encoding the&amp;nbsp;destination&#39;s IPv4 address as an IPv4-mapped IPv6 address, and passing that address, within a sockaddr_in6 structure, in the connect() or sendto() call.&amp;nbsp;&lt;/div&gt;&lt;div data-sider-select-id=&quot;9b86270d-a50b-4bd0-8c5a-72402ec19036&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div data-sider-select-id=&quot;9b86270d-a50b-4bd0-8c5a-72402ec19036&quot;&gt;&lt;b data-sider-select-id=&quot;1e90207f-9b80-478c-bf6e-feb3072ee823&quot;&gt;IPv6--&amp;gt;IPv4&lt;/b&gt;&lt;/div&gt;&lt;div data-sider-select-id=&quot;9b86270d-a50b-4bd0-8c5a-72402ec19036&quot;&gt;&amp;nbsp;When applications use AF_INET6 sockets to accept TCP connections from IPv4 nodes, or receive UDP packets from IPv4 nodes, the system returns the peer&#39;s address to the application in the accept(), recvfrom(), or getpeername() call using a sockaddr_in6 structure encoded this way.&lt;/div&gt;&lt;div data-sider-select-id=&quot;9b86270d-a50b-4bd0-8c5a-72402ec19036&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div data-sider-select-id=&quot;9b86270d-a50b-4bd0-8c5a-72402ec19036&quot;&gt;--Basic Socket Interface Extensions for IPv6 (RFC3493, 3.7 section)&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="380" width="610" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="icOcJ5imzF8ybxUpSHXg-91" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;NIC&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=1;strokeColor=none;fillColor=#fff2cc;align=center;flipV=0;flipH=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="1129.58" width="419.05" height="36.42" as="geometry" />
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-117" value="Host Node" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=none;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="25" y="-1160" width="530" height="460" as="geometry" />
         </mxCell>
-        <mxCell id="icOcJ5imzF8ybxUpSHXg-92" value="IPv6 Stack" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;strokeWidth=1;strokeColor=none;fillColor=#f8cecc;fontStyle=1;flipV=1;flipH=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="994.77" width="210" height="60.04" as="geometry" />
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-118" value="APP" style="whiteSpace=wrap;html=1;rounded=1;fillColor=none;strokeColor=default;verticalAlign=middle;align=left;dashed=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="-1130" width="480" height="121.51" as="geometry" />
         </mxCell>
-        <mxCell id="icOcJ5imzF8ybxUpSHXg-93" value="Data Link Layer" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=1;strokeColor=none;fillColor=#fff2cc;align=center;flipV=1;flipH=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="1059.8166666666666" width="419.0476190476191" height="43.666666666666664" as="geometry" />
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-119" value="OS" style="whiteSpace=wrap;html=1;rounded=1;fillColor=none;strokeColor=default;verticalAlign=middle;align=left;dashed=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="-996.33" width="480" height="236.33" as="geometry" />
         </mxCell>
-        <mxCell id="icOcJ5imzF8ybxUpSHXg-95" value="TCP/UDP" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=1;strokeColor=none;fillColor=#fff2cc;align=center;flipV=1;flipH=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="945" width="419.0476190476191" height="43.666666666666664" as="geometry" />
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-120" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;NIC&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=1;strokeColor=none;fillColor=#fff2cc;align=center;flipV=0;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="-750.4200000000001" width="419.05" height="36.42" as="geometry" />
         </mxCell>
-        <mxCell id="icOcJ5imzF8ybxUpSHXg-97" value="Socket API" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;strokeWidth=1;strokeColor=none;fillColor=#f8cecc;align=center;fontStyle=1;flipV=1;flipH=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="894" width="419.0476190476191" height="43.666666666666664" as="geometry" />
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-121" value="IPv6 Stack" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;strokeWidth=1;strokeColor=none;fillColor=#f8cecc;fontStyle=1;flipV=1;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="-885.23" width="210" height="60.04" as="geometry" />
         </mxCell>
-        <mxCell id="icOcJ5imzF8ybxUpSHXg-98" value="C/C++" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=1;strokeColor=none;fillColor=#ffe6cc;align=center;flipV=0;flipH=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="819.67" width="60" height="43.67" as="geometry" />
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-122" value="Data Link Layer" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=1;strokeColor=none;fillColor=#fff2cc;align=center;flipV=1;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="-820.1833333333334" width="419.0476190476191" height="43.666666666666664" as="geometry" />
         </mxCell>
-        <mxCell id="icOcJ5imzF8ybxUpSHXg-99" value="GO" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=1;strokeColor=none;fillColor=#ffe6cc;align=center;arcSize=0;" vertex="1" parent="1">
-          <mxGeometry x="140" y="819.67" width="60" height="43.67" as="geometry" />
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-123" value="TCP/UDP" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=1;strokeColor=none;fillColor=#fff2cc;align=center;flipV=1;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="-935" width="419.0476190476191" height="43.666666666666664" as="geometry" />
         </mxCell>
-        <mxCell id="icOcJ5imzF8ybxUpSHXg-100" value="Java" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=1;strokeColor=none;fillColor=#ffe6cc;align=center;arcSize=0;" vertex="1" parent="1">
-          <mxGeometry x="215" y="819.67" width="60" height="43.67" as="geometry" />
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-124" value="Socket API" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;strokeWidth=1;strokeColor=none;fillColor=#f8cecc;align=center;fontStyle=1;flipV=1;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="-986" width="419.0476190476191" height="43.666666666666664" as="geometry" />
         </mxCell>
-        <mxCell id="icOcJ5imzF8ybxUpSHXg-101" value="Python" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=1;strokeColor=none;fillColor=#ffe6cc;align=center;arcSize=0;" vertex="1" parent="1">
-          <mxGeometry x="290" y="819.67" width="60" height="43.67" as="geometry" />
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-125" value="C/C++" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=1;strokeColor=none;fillColor=#ffe6cc;align=center;flipV=0;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="-1060.33" width="60" height="43.67" as="geometry" />
         </mxCell>
-        <mxCell id="icOcJ5imzF8ybxUpSHXg-102" value=".Net" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=1;strokeColor=none;fillColor=#ffe6cc;align=center;arcSize=0;" vertex="1" parent="1">
-          <mxGeometry x="360" y="819.67" width="60" height="43.67" as="geometry" />
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-126" value="GO" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=1;strokeColor=none;fillColor=#ffe6cc;align=center;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="145" y="-1060.33" width="60" height="43.67" as="geometry" />
         </mxCell>
-        <mxCell id="icOcJ5imzF8ybxUpSHXg-103" value="..." style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=1;strokeColor=none;fillColor=#ffe6cc;align=center;arcSize=0;" vertex="1" parent="1">
-          <mxGeometry x="429.04999999999995" y="819.67" width="60" height="43.67" as="geometry" />
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-127" value="Java" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=1;strokeColor=none;fillColor=#ffe6cc;align=center;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-1060.33" width="60" height="43.67" as="geometry" />
         </mxCell>
-        <mxCell id="icOcJ5imzF8ybxUpSHXg-104" value="Application" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;strokeWidth=1;strokeColor=none;fillColor=#f8cecc;align=center;fontStyle=1;flipV=0;flipH=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="760" width="419.0476190476191" height="43.666666666666664" as="geometry" />
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-128" value="Python" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=1;strokeColor=none;fillColor=#ffe6cc;align=center;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="295" y="-1060.33" width="60" height="43.67" as="geometry" />
         </mxCell>
-        <mxCell id="icOcJ5imzF8ybxUpSHXg-105" value="IPv4 Stack" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;strokeWidth=1;strokeColor=none;fillColor=#f8cecc;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="290" y="994.77" width="199.05" height="60.04" as="geometry" />
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-129" value=".Net" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=1;strokeColor=none;fillColor=#ffe6cc;align=center;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="365" y="-1060.33" width="60" height="43.67" as="geometry" />
         </mxCell>
-        <mxCell id="icOcJ5imzF8ybxUpSHXg-108" value="&lt;div data-sider-select-id=&quot;f37c8456-bf8c-4f8a-89ce-bba583378e5a&quot; style=&quot;font-size: 10px;&quot;&gt;RFC 4213&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;pre style=&quot;font-size: 10px; margin-top: 0px; margin-bottom: 0px;&quot;&gt;&lt;span style=&quot;display: inline; font-size: 10px; font-weight: bold;&quot; data-sider-select-id=&quot;4874f4fa-2349-4c50-a16f-f6f1220eff90&quot; class=&quot;h1&quot;&gt;Basic Transition Mechanisms for IPv6 &lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-size: 10px; margin-top: 0px; margin-bottom: 0px;&quot;&gt;&lt;span style=&quot;display: inline; font-size: 10px; font-weight: bold;&quot; data-sider-select-id=&quot;4874f4fa-2349-4c50-a16f-f6f1220eff90&quot; class=&quot;h1&quot;&gt;Hosts and Routers&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;rounded=0;fontSize=10;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="570" y="999.79" width="220" height="50" as="geometry" />
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-130" value="..." style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=1;strokeColor=none;fillColor=#ffe6cc;align=center;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="434.04999999999995" y="-1060.33" width="60" height="43.67" as="geometry" />
         </mxCell>
-        <mxCell id="icOcJ5imzF8ybxUpSHXg-110" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="icOcJ5imzF8ybxUpSHXg-108" target="icOcJ5imzF8ybxUpSHXg-105">
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-131" value="Application" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;strokeWidth=1;strokeColor=none;fillColor=#f8cecc;align=center;fontStyle=1;flipV=0;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="-1120" width="419.0476190476191" height="43.666666666666664" as="geometry" />
+        </mxCell>
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-132" value="IPv4 Stack" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;strokeWidth=1;strokeColor=none;fillColor=#f8cecc;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="295" y="-885.23" width="199.05" height="60.04" as="geometry" />
+        </mxCell>
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-133" value="&lt;div data-sider-select-id=&quot;f37c8456-bf8c-4f8a-89ce-bba583378e5a&quot; style=&quot;font-size: 10px;&quot;&gt;RFC 4213&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;pre style=&quot;font-size: 10px; margin-top: 0px; margin-bottom: 0px;&quot;&gt;&lt;span style=&quot;display: inline; font-size: 10px; font-weight: bold;&quot; data-sider-select-id=&quot;4874f4fa-2349-4c50-a16f-f6f1220eff90&quot; class=&quot;h1&quot;&gt;Basic Transition Mechanisms for IPv6 &lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-size: 10px; margin-top: 0px; margin-bottom: 0px;&quot;&gt;&lt;span style=&quot;display: inline; font-size: 10px; font-weight: bold;&quot; data-sider-select-id=&quot;4874f4fa-2349-4c50-a16f-f6f1220eff90&quot; class=&quot;h1&quot;&gt;Hosts and Routers&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;rounded=0;fontSize=10;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="575" y="-880.21" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-134" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="icOcJ5imzF8ybxUpSHXg-133" target="icOcJ5imzF8ybxUpSHXg-132">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="380" y="900" as="sourcePoint" />
-            <mxPoint x="430" y="850" as="targetPoint" />
+            <mxPoint x="385" y="-980" as="sourcePoint" />
+            <mxPoint x="435" y="-1030" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="icOcJ5imzF8ybxUpSHXg-111" value="&lt;div data-sider-select-id=&quot;10d36287-2a77-4f72-8a60-e9d3261a410f&quot; style=&quot;font-size: 10px;&quot;&gt;RFC 3493&lt;/div&gt;&lt;div data-sider-select-id=&quot;10d36287-2a77-4f72-8a60-e9d3261a410f&quot; style=&quot;&quot;&gt;&lt;b&gt;Basic Socket Interface Extensions for IPv6&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="570.05" y="890.83" width="239.95" height="50" as="geometry" />
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-135" value="&lt;div data-sider-select-id=&quot;10d36287-2a77-4f72-8a60-e9d3261a410f&quot; style=&quot;font-size: 10px;&quot;&gt;RFC 3493&lt;/div&gt;&lt;div data-sider-select-id=&quot;10d36287-2a77-4f72-8a60-e9d3261a410f&quot; style=&quot;&quot;&gt;&lt;b&gt;Basic Socket Interface Extensions for IPv6&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div data-sider-select-id=&quot;10d36287-2a77-4f72-8a60-e9d3261a410f&quot; style=&quot;&quot;&gt;RFC&amp;nbsp;&lt;/div&gt;&lt;div data-sider-select-id=&quot;10d36287-2a77-4f72-8a60-e9d3261a410f&quot; style=&quot;&quot;&gt;&lt;b data-sider-select-id=&quot;2b95129f-3061-4639-8080-8fa92e2fb9ad&quot;&gt;Default Address Selection for Internet Protocol Version 6 (IPv6)&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="575.05" y="-989.17" width="239.95" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="icOcJ5imzF8ybxUpSHXg-112" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="icOcJ5imzF8ybxUpSHXg-111">
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-136" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="icOcJ5imzF8ybxUpSHXg-135">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="380.05" y="791.04" as="sourcePoint" />
-            <mxPoint x="489.05" y="916.04" as="targetPoint" />
+            <mxPoint x="385.04999999999995" y="-1088.96" as="sourcePoint" />
+            <mxPoint x="494.04999999999995" y="-963.96" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="icOcJ5imzF8ybxUpSHXg-113" value="&lt;div data-sider-select-id=&quot;c3250534-daea-4c97-89fa-9fc5328a1eec&quot; style=&quot;font-size: 10px;&quot;&gt;RFC 4038&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;pre style=&quot;font-size: 10px; margin-top: 0px; margin-bottom: 0px;&quot;&gt;&lt;span style=&quot;display: inline; font-size: 10px; font-weight: bold;&quot; data-sider-select-id=&quot;4874f4fa-2349-4c50-a16f-f6f1220eff90&quot; class=&quot;h1&quot;&gt;Application Aspects of IPv6 Transition&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="570.05" y="756.83" width="249.95" height="50" as="geometry" />
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-137" value="&lt;div data-sider-select-id=&quot;c3250534-daea-4c97-89fa-9fc5328a1eec&quot; style=&quot;font-size: 10px;&quot;&gt;RFC 4038&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;pre style=&quot;font-size: 10px; margin-top: 0px; margin-bottom: 0px;&quot;&gt;&lt;span style=&quot;display: inline; font-size: 10px; font-weight: bold;&quot; data-sider-select-id=&quot;4874f4fa-2349-4c50-a16f-f6f1220eff90&quot; class=&quot;h1&quot;&gt;Application Aspects of IPv6 Transition&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="575.05" y="-1123.17" width="249.95" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="icOcJ5imzF8ybxUpSHXg-114" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="icOcJ5imzF8ybxUpSHXg-113">
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-138" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="icOcJ5imzF8ybxUpSHXg-137">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="380.05" y="657.04" as="sourcePoint" />
-            <mxPoint x="489.05" y="782.04" as="targetPoint" />
+            <mxPoint x="385.04999999999995" y="-1222.96" as="sourcePoint" />
+            <mxPoint x="494.04999999999995" y="-1097.96" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="icOcJ5imzF8ybxUpSHXg-115" value="&lt;div data-sider-select-id=&quot;c3250534-daea-4c97-89fa-9fc5328a1eec&quot; style=&quot;font-size: 10px;&quot;&gt;Java&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;margin-top: 0px; margin-bottom: 0px;&quot;&gt;&lt;b&gt;Networking IPv6 User Guide&lt;/b&gt;&lt;br&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="570.05" y="819.6700000000001" width="249.95" height="50" as="geometry" />
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-139" value="&lt;div data-sider-select-id=&quot;c3250534-daea-4c97-89fa-9fc5328a1eec&quot; style=&quot;font-size: 10px;&quot;&gt;Java&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;margin-top: 0px; margin-bottom: 0px;&quot;&gt;&lt;b&gt;Networking IPv6 User Guide&lt;/b&gt;&lt;br&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="575.05" y="-1060.33" width="249.95" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="icOcJ5imzF8ybxUpSHXg-116" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="icOcJ5imzF8ybxUpSHXg-115">
+        <mxCell id="icOcJ5imzF8ybxUpSHXg-140" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="icOcJ5imzF8ybxUpSHXg-139">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="380.05" y="719.88" as="sourcePoint" />
-            <mxPoint x="489.05" y="844.88" as="targetPoint" />
+            <mxPoint x="385.04999999999995" y="-1160.12" as="sourcePoint" />
+            <mxPoint x="494.04999999999995" y="-1035.12" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
