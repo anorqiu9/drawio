@@ -1,25 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T08:52:09.055Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="QJSAtJm9pQBNPhawO7mG" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-31T02:31:50.397Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="QYaeKKCReAuwR2_UoJ47" version="24.4.4" type="github">
   <diagram name="Page-1" id="SLcZfKd5lIVYCvoS-5sA">
     <mxGraphModel dx="954" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7JBYDNdML-lj_Lvr37HS-19" value="银行IDC-生产环境" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="7JBYDNdML-lj_Lvr37HS-19" value="银行IDC-生产环境" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="60" y="110" width="420" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="7JBYDNdML-lj_Lvr37HS-22" value="分行网络环境" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7JBYDNdML-lj_Lvr37HS-22" value="分行网络环境" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="190" width="30" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="7JBYDNdML-lj_Lvr37HS-6" value="Third-Party IDC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="7JBYDNdML-lj_Lvr37HS-6" value="Third-Party IDC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="590" y="150" width="160" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="7JBYDNdML-lj_Lvr37HS-8" value="Oracle" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="7JBYDNdML-lj_Lvr37HS-8" value="Oracle" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="640" y="290" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7JBYDNdML-lj_Lvr37HS-2" value="APP Center" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="7JBYDNdML-lj_Lvr37HS-2" value="APP Center" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="90" y="150" width="190" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="7JBYDNdML-lj_Lvr37HS-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="7JBYDNdML-lj_Lvr37HS-3" target="7JBYDNdML-lj_Lvr37HS-5">
+        <mxCell id="7JBYDNdML-lj_Lvr37HS-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="7JBYDNdML-lj_Lvr37HS-3" target="7JBYDNdML-lj_Lvr37HS-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="300" y="260" />
@@ -27,52 +27,66 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="7JBYDNdML-lj_Lvr37HS-3" value="Biz App" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7JBYDNdML-lj_Lvr37HS-3" value="Biz App" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="210" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="7JBYDNdML-lj_Lvr37HS-4" value="Ex-DMZ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="7JBYDNdML-lj_Lvr37HS-4" value="Ex-DMZ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="290" y="150" width="160" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="7JBYDNdML-lj_Lvr37HS-5" value="FrontEnd" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;" vertex="1" parent="1">
+        <mxCell id="7JBYDNdML-lj_Lvr37HS-5" value="FrontEnd" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;" parent="1" vertex="1">
           <mxGeometry x="342.5" y="200" width="55" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="7JBYDNdML-lj_Lvr37HS-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7JBYDNdML-lj_Lvr37HS-7" target="7JBYDNdML-lj_Lvr37HS-8">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="7JBYDNdML-lj_Lvr37HS-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="7JBYDNdML-lj_Lvr37HS-7" target="7JBYDNdML-lj_Lvr37HS-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="300" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="7JBYDNdML-lj_Lvr37HS-18" value="message" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7JBYDNdML-lj_Lvr37HS-7" target="7JBYDNdML-lj_Lvr37HS-5">
+        <mxCell id="7JBYDNdML-lj_Lvr37HS-18" value="message" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7JBYDNdML-lj_Lvr37HS-7" target="7JBYDNdML-lj_Lvr37HS-5" edge="1">
           <mxGeometry x="0.6941" y="-10" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7JBYDNdML-lj_Lvr37HS-7" value="Third-Party Biz App" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7JBYDNdML-lj_Lvr37HS-7" value="Third-Party Biz App" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7JBYDNdML-lj_Lvr37HS-16" value="dblink" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="7JBYDNdML-lj_Lvr37HS-9" target="7JBYDNdML-lj_Lvr37HS-8">
+        <mxCell id="7JBYDNdML-lj_Lvr37HS-16" value="dblink" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="7JBYDNdML-lj_Lvr37HS-9" target="7JBYDNdML-lj_Lvr37HS-8" edge="1">
           <mxGeometry x="-0.8333" y="10" relative="1" as="geometry">
             <mxPoint x="470" y="320" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7JBYDNdML-lj_Lvr37HS-9" value="Oracle" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;dashed=1;" vertex="1" parent="1">
+        <mxCell id="7JBYDNdML-lj_Lvr37HS-9" value="Oracle" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="290" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7JBYDNdML-lj_Lvr37HS-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="7JBYDNdML-lj_Lvr37HS-5">
+        <mxCell id="7JBYDNdML-lj_Lvr37HS-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="7JBYDNdML-lj_Lvr37HS-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="340" as="sourcePoint" />
-            <mxPoint x="370" y="290" as="targetPoint" />
+            <mxPoint x="370" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7JBYDNdML-lj_Lvr37HS-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.789;entryY=0.409;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7JBYDNdML-lj_Lvr37HS-5" target="7JBYDNdML-lj_Lvr37HS-2">
+        <mxCell id="7JBYDNdML-lj_Lvr37HS-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.789;entryY=0.409;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="7JBYDNdML-lj_Lvr37HS-5" target="7JBYDNdML-lj_Lvr37HS-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="340" as="sourcePoint" />
             <mxPoint x="450" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7JBYDNdML-lj_Lvr37HS-26" value="&lt;ol&gt;&lt;li&gt;前置为银行业务系统与第三方业务系统提供交互界面&lt;/li&gt;&lt;li&gt;第三方业务系统通过前置发送消息给银行业务系统&lt;/li&gt;&lt;li&gt;银行业务系统通过前置与第三方业务系统进行数据交互，包括数据查询及修改&lt;/li&gt;&lt;li&gt;前置通过本地oracle操作第三方业务系统数据库，其通过创建到第三方业务系统数据库DBLink&lt;span style=&quot;background-color: initial;&quot;&gt;建立实时会话，进行数据交互，&lt;b&gt;数据不落地，本地oralce本身不持久化存储数据。本质上，本地oracle仅仅扮演操作第三方业务数据库DB擎代理。&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="7JBYDNdML-lj_Lvr37HS-26" value="&lt;ul&gt;&lt;li&gt;前置为银行业务系统与第三方业务系统提供交互界面&lt;/li&gt;&lt;li&gt;第三方业务系统通过前置发送消息给银行业务系统&lt;/li&gt;&lt;li&gt;银行业务系统通过前置与第三方业务系统进行数据交互，包括数据查询及修改&lt;/li&gt;&lt;li&gt;前置通过本地oracle操作第三方业务系统数据库，其通过创建到第三方业务系统数据库DBLink&lt;span style=&quot;background-color: initial;&quot;&gt;建立实时会话，进行数据交互，&lt;b&gt;数据不落地，本地oralce本身不持久化存储数据。本质上，本地oracle仅仅扮演操作第三方业务数据库DB擎代理。&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;b&gt;安全：&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=none;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="60" y="430" width="420" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="7JBYDNdML-lj_Lvr37HS-27" value="Interaction by DBLink" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="60" y="10" width="220" height="60" as="geometry" />
+        <mxCell id="7JBYDNdML-lj_Lvr37HS-27" value="Interaction with DBLink" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="60" y="10" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0BiothVFNnBkQdWMm5Uc-1" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="415" y="240" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0BiothVFNnBkQdWMm5Uc-3" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="250" y="220" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0BiothVFNnBkQdWMm5Uc-4" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="310" y="265" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0BiothVFNnBkQdWMm5Uc-5" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="610" y="320" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
