@@ -1,9 +1,171 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.2.1">
   <diagram name="Page-1" id="5z2WCI2UmEDIUNa-3cXv">
-    <mxGraphModel>
+    <mxGraphModel dx="946" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="mgzov7mJ7bYjar7JeXto-1" value="User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="150" height="1614" as="geometry" />
+        </mxCell>
+        <mxCell id="mgzov7mJ7bYjar7JeXto-2" value="VS Code Copilot Extension" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="374" y="20" width="214" height="1614" as="geometry" />
+        </mxCell>
+        <mxCell id="mgzov7mJ7bYjar7JeXto-3" value="LLM API Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="742" y="20" width="150" height="1614" as="geometry" />
+        </mxCell>
+        <mxCell id="mgzov7mJ7bYjar7JeXto-4" value="MCP Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="942" y="20" width="150" height="1614" as="geometry" />
+        </mxCell>
+        <mxCell id="mgzov7mJ7bYjar7JeXto-5" value="Weather MCP Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1386" y="20" width="171" height="1614" as="geometry" />
+        </mxCell>
+        <mxCell id="mgzov7mJ7bYjar7JeXto-6" value="Initialize MCP client" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="mgzov7mJ7bYjar7JeXto-2" target="mgzov7mJ7bYjar7JeXto-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="758" y="172" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mgzov7mJ7bYjar7JeXto-7" value="Handshake &amp; capability discovery" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="mgzov7mJ7bYjar7JeXto-4" target="mgzov7mJ7bYjar7JeXto-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1253" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mgzov7mJ7bYjar7JeXto-8" value="Available tools: [get_weather]" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="mgzov7mJ7bYjar7JeXto-5" target="mgzov7mJ7bYjar7JeXto-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1256" y="268" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mgzov7mJ7bYjar7JeXto-9" value="Tools registered" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="mgzov7mJ7bYjar7JeXto-4" target="mgzov7mJ7bYjar7JeXto-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="761" y="316" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mgzov7mJ7bYjar7JeXto-10" value="&quot;What&#39;s the weather like in Paris today?&quot;" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="mgzov7mJ7bYjar7JeXto-1" target="mgzov7mJ7bYjar7JeXto-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="297" y="413" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mgzov7mJ7bYjar7JeXto-11" value="Query + Available MCP tools schema" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="mgzov7mJ7bYjar7JeXto-2" target="mgzov7mJ7bYjar7JeXto-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="658" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mgzov7mJ7bYjar7JeXto-12" value="Tool selection &amp; parameters" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="mgzov7mJ7bYjar7JeXto-3" target="mgzov7mJ7bYjar7JeXto-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="661" y="644" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mgzov7mJ7bYjar7JeXto-13" value="&quot;I&#39;ll fetch weather data for Paris. Continue?&quot;" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="mgzov7mJ7bYjar7JeXto-2" target="mgzov7mJ7bYjar7JeXto-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="741" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mgzov7mJ7bYjar7JeXto-14" value="&quot;Yes, continue&quot;" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="mgzov7mJ7bYjar7JeXto-1" target="mgzov7mJ7bYjar7JeXto-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="297" y="789" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mgzov7mJ7bYjar7JeXto-15" value="Invoke get_weather tool" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="mgzov7mJ7bYjar7JeXto-2" target="mgzov7mJ7bYjar7JeXto-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="758" y="837" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mgzov7mJ7bYjar7JeXto-16" value="JSON-RPC: tools/call&#xa;{&quot;name&quot;: &quot;get_weather&quot;, &quot;args&quot;: {&quot;location&quot;: &quot;Paris&quot;}}" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="mgzov7mJ7bYjar7JeXto-4" target="mgzov7mJ7bYjar7JeXto-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1253" y="904" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mgzov7mJ7bYjar7JeXto-17" value="Fetch weather data" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="mgzov7mJ7bYjar7JeXto-5" target="mgzov7mJ7bYjar7JeXto-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1522" y="1019" />
+              <mxPoint x="1522" y="1049" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mgzov7mJ7bYjar7JeXto-18" value="Weather data:&#xa;&quot;15Â°C, partly cloudy, humidity 65%&quot;" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="mgzov7mJ7bYjar7JeXto-5" target="mgzov7mJ7bYjar7JeXto-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1256" y="1116" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mgzov7mJ7bYjar7JeXto-19" value="Tool execution result" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="mgzov7mJ7bYjar7JeXto-4" target="mgzov7mJ7bYjar7JeXto-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="761" y="1164" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mgzov7mJ7bYjar7JeXto-20" value="Original query + Weather data" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="mgzov7mJ7bYjar7JeXto-2" target="mgzov7mJ7bYjar7JeXto-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="658" y="1261" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mgzov7mJ7bYjar7JeXto-21" value="Natural language response" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="mgzov7mJ7bYjar7JeXto-3" target="mgzov7mJ7bYjar7JeXto-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="661" y="1376" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mgzov7mJ7bYjar7JeXto-22" value="&quot;The weather in Paris is currently 15Â°C&#xa;and partly cloudy with 65% humidity.&quot;" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="mgzov7mJ7bYjar7JeXto-2" target="mgzov7mJ7bYjar7JeXto-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="1443" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mgzov7mJ7bYjar7JeXto-23" value="Initial Setup (happens once)" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="70" y="95" width="1426" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="mgzov7mJ7bYjar7JeXto-24" value="Weather Query Processing" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="70" y="336" width="1426" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="mgzov7mJ7bYjar7JeXto-25" value="í ½í´´ LLM API Call" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="456" y="433" width="386" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="mgzov7mJ7bYjar7JeXto-26" value="Analyze intent&#xa;Select tool: get_weather&#xa;Extract params: location=&quot;Paris&quot;" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="690" y="530" width="255" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="mgzov7mJ7bYjar7JeXto-27" value="í ½í¿¢ Local MCP Tool Execution" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="456" y="664" width="1040" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="mgzov7mJ7bYjar7JeXto-28" value="Call external&#xa;Weather API" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="1386" y="924" width="171" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="mgzov7mJ7bYjar7JeXto-29" value="í ½í´´ LLM API Call" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="456" y="1184" width="386" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="mgzov7mJ7bYjar7JeXto-30" value="Format response&#xa;naturally" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="742" y="1281" width="150" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="mgzov7mJ7bYjar7JeXto-31" value="Legend:&#xa;í ½í´´ = LLM API calls (expensive)&#xa;í ½í¿¢ = Local processing (fast/cheap)" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1463" width="1426" height="86" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
